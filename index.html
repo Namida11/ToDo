@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="header"></div>
+
+    <div class="app-container">
+      <div class="todo">
+        <h1
+          style="font-size: 30px; font-weight: bold; letter-spacing: 4px"
+          class="text-white"
+        >
+          TO DO
+        </h1>
+
+        <div class="input_box">
+          <a
+            class="clear remove_box fa-regular fa-circle-xmark"
+            href="#"
+            id="clear"
+            onclick="clearFunc()"
+          ></a>
+          <input id="input_Id" class="inpt_text" type="text" />
+        </div>
+        <div class="note_box">
+          <div class="sortDiv">
+            <i class="fa-solid fa-arrow-down-wide-short down" id="down"></i>
+            <i class="fa-solid fa-arrow-up-wide-short up" id="up"></i>
+          </div>
+          <ul id="noteId" class="ul_box"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>
