@@ -13,7 +13,7 @@ body {
       rgba(59, 159, 252, 0.705) 20%,
       rgba(176, 124, 219, 0.664)
     ),
-    url(/img/pexels-riccardo-bertolo-4245826.jpg);
+    url(./img/pexels-riccardo-bertolo-4245826.jpg);
   position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
